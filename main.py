@@ -18,8 +18,8 @@ def guess(x):
             else:
                 print("Sorry, guess again. Too high!")
 
-    print('Yay! You guessed it right')
-    print(i)
+    print(f'Yo! You got that right at {i}th attempt.')
+    
 def computer_guess():
     low = 1
     high = 100
